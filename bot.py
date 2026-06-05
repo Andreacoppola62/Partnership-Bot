@@ -39,27 +39,6 @@ DEV_GUILD_ID = 0
 # privato mostrera anche il nome tecnico dell'errore.
 SHOW_ERROR_DETAILS = True
 
-STYLE_OPTIONS: dict[str, tuple[str, discord.Color, str, str]] = {
-    "aurora": (
-        "Aurora",
-        discord.Color.from_rgb(88, 166, 255),
-        "✦",
-        "Blu moderno, luminoso e ordinato.",
-    ),
-    "nova": (
-        "Nova",
-        discord.Color.from_rgb(167, 121, 255),
-        "⟡",
-        "Tono premium, elegante e scenico.",
-    ),
-    "pulse": (
-        "Pulse",
-        discord.Color.from_rgb(69, 221, 171),
-        "❖",
-        "Look tech, energico e pulito.",
-    ),
-}
-
 COLOR_PANEL = discord.Color.from_rgb(86, 154, 255)
 COLOR_SUCCESS = discord.Color.from_rgb(77, 214, 158)
 COLOR_WARNING = discord.Color.from_rgb(255, 185, 94)

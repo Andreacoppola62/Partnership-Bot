@@ -223,9 +223,11 @@ def permission_embed() -> discord.Embed:
 
 def control_panel_embed() -> discord.Embed:
     embed = discord.Embed(
-        title="✦ Partnership Control Panel",
+        title="✦ Partnership Bot",
         description=(
-            "⟡ Usa il pulsante qui sotto per inserire una nuova partnership."
+            "⟡ Usa il pulsante qui sotto per inserire una nuova partnership.
+            
+            by Andrea"
         ),
         color=COLOR_PANEL,
     )
